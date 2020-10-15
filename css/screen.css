@@ -295,6 +295,10 @@ input::placeholder {
   max-width: 29em;
   margin: 0 auto;
   padding: 2em;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .c-app__summary {
